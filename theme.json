@@ -1,0 +1,88 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "color": {
+      "palette": [
+        { "slug": "primary", "color": "#0f172a", "name": "Primary Navy" },
+        { "slug": "secondary", "color": "#8a6b4d", "name": "Muted Bronze" },
+        { "slug": "background", "color": "#f7f5f2", "name": "Background" },
+        { "slug": "surface", "color": "#ffffff", "name": "Surface" },
+        { "slug": "text", "color": "#0f172a", "name": "Text" },
+        { "slug": "muted", "color": "#586575", "name": "Muted" },
+        { "slug": "border", "color": "#dfe3e8", "name": "Border" }
+      ]
+    },
+    "layout": {
+      "contentSize": "780px",
+      "wideSize": "1200px"
+    },
+    "spacing": {
+      "units": ["px", "rem", "em", "vh", "vw"]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "\"Segoe UI\", Helvetica, Arial, sans-serif",
+          "slug": "sans-serif",
+          "name": "Sans Serif"
+        },
+        {
+          "fontFamily": "\"Georgia\", \"Times New Roman\", serif",
+          "slug": "serif",
+          "name": "Serif"
+        }
+      ],
+      "fontSizes": [
+        { "slug": "xs", "size": "0.75rem", "name": "XS" },
+        { "slug": "sm", "size": "0.875rem", "name": "SM" },
+        { "slug": "base", "size": "1rem", "name": "Base" },
+        { "slug": "lg", "size": "1.125rem", "name": "LG" },
+        { "slug": "xl", "size": "1.5rem", "name": "XL" },
+        { "slug": "2xl", "size": "2rem", "name": "2XL" },
+        { "slug": "3xl", "size": "2.75rem", "name": "3XL" }
+      ]
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "#f7f5f2",
+      "text": "#0f172a"
+    },
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--sans-serif)",
+      "lineHeight": "1.7"
+    },
+    "elements": {
+      "h1": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--serif)",
+          "fontSize": "clamp(2.2rem, 4vw, 4rem)",
+          "lineHeight": "1.1",
+          "letterSpacing": "-0.04em"
+        }
+      },
+      "h2": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--serif)",
+          "fontSize": "clamp(1.7rem, 2.6vw, 2.4rem)",
+          "lineHeight": "1.2"
+        }
+      },
+      "h3": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--sans-serif)",
+          "fontSize": "1rem",
+          "fontWeight": 700,
+          "letterSpacing": "0.12em",
+          "textTransform": "uppercase"
+        }
+      },
+      "link": {
+        "color": { "text": "#0f172a" },
+        "typography": { "textDecoration": "underline" }
+      }
+    }
+  }
+}

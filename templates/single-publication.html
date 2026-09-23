@@ -1,0 +1,45 @@
+<!-- wp:template-part {"slug":"header","theme":"oruj-ismayilov-theme"} /-->
+
+<!-- wp:group {"tagName":"main","className":"oi-publication-wrap"} -->
+<main class="wp-block-group oi-publication-wrap">
+  <!-- wp:group {"layout":{"type":"constrained","justifyContent":"center"}} -->
+  <div class="wp-block-group">
+    <!-- wp:group {"className":"oi-publication-header"} -->
+    <div class="wp-block-group oi-publication-header">
+      <!-- wp:paragraph {"className":"oi-publication-kicker"} -->
+      <p class="oi-publication-kicker">Preprint</p>
+      <!-- /wp:paragraph -->
+
+      <!-- wp:post-title {"level":1,"className":"oi-publication-title"} /-->
+
+      <!-- wp:post-excerpt {"className":"oi-publication-subtitle"} /-->
+
+      <!-- wp:paragraph {"className":"oi-publication-author"} -->
+      <p class="oi-publication-author">Oruj Ismayilov</p>
+      <!-- /wp:paragraph -->
+
+      <!-- wp:post-date {"format":"F j, Y","className":"oi-publication-date"} /-->
+    </div>
+    <!-- /wp:group -->
+
+    <!-- wp:columns {"className":"oi-publication-layout"} -->
+    <div class="wp-block-columns oi-publication-layout">
+      <!-- wp:column {"width":"26%","className":"oi-pub-sidebar-col"} -->
+      <div class="wp-block-column oi-pub-sidebar-col" style="flex-basis:26%">
+        <!-- wp:template-part {"slug":"sidebar-publication","theme":"oruj-ismayilov-theme"} /-->
+      </div>
+      <!-- /wp:column -->
+
+      <!-- wp:column {"width":"74%","className":"oi-pub-body-col"} -->
+      <div class="wp-block-column oi-pub-body-col" style="flex-basis:74%">
+        <!-- wp:post-content /-->
+      </div>
+      <!-- /wp:column -->
+    </div>
+    <!-- /wp:columns -->
+  </div>
+  <!-- /wp:group -->
+</main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","theme":"oruj-ismayilov-theme"} /-->
